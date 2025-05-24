@@ -2,6 +2,19 @@
 
 A structured record of experiments, tools, requirements, and insights for improving voice typing and dictation on Android. This project focuses on accuracy, reliability, system-wide integration, and evaluating alternatives to Gboard voice typing—especially for users with accents or those experiencing transcription interruptions.
 
+- Personalization layer to fine-tune speech models per user
+
+## Table of Contents
+
+- [Core Requirements](#-core-requirements-must-have)
+- [Tools & Apps Evaluated](#-tools--apps-evaluated-quick-results)
+- [Tools Suggested for Testing](#-tools-suggested-for-testing-deeper-trials)
+- [What to Delay](#-what-to-delay-too-heavy-for-now)
+- [Android System Options](#️-android-system-options-checked)
+- [Summary of Findings](#️-summary-of-findings)
+- [What To Try Right Now](#-what-to-try-right-now)
+- [Links & References](#end-of-log)
+
 ---
 
 ## ✅ Core Requirements (Must-Have)
@@ -162,8 +175,7 @@ GitHub: <https://github.com/alex-vt/WhisperInput>
 
 - Highlighted limitations (no preview, long input loss)
 - [WhisperInput](https://github.com/alex-vt/WhisperInput)
-- [Study on ASR for Non-Native English](https://arxiv.org/abs/2503.06924)
-- [⚠️ NOTE: The arXiv link for ASR study appears to reference a future date (2025). Please verify correct paper identifier]
+- [Study on ASR for Non-Native English](https://arxiv.org/abs/2110.00678) (Shibano et al., 2021)
 - [OpenAI Whisper Model](https://github.com/openai/whisper)
 - [Whisper.cpp](https://github.com/ggerganov/whisper.cpp)
 - [AssemblyAI](https://www.assemblyai.com/)
@@ -176,7 +188,7 @@ GitHub: <https://github.com/alex-vt/WhisperInput>
 ## End of Log
 
 - WhisperInput: <https://github.com/alex-vt/WhisperInput>
-- Study on ASR for Non-Native English: <https://arxiv.org/abs/2503.06924>
+- Study on ASR for Non-Native English: <https://arxiv.org/abs/2110.00678> (Shibano et al., 2021)
 - OpenAI Whisper Model: <https://github.com/openai/whisper>
 - Whisper.cpp: <https://github.com/ggerganov/whisper.cpp>
 - AssemblyAI: <https://www.assemblyai.com/>
